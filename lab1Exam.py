@@ -24,13 +24,13 @@ def make_new_row(rows):
 
 # this function is in responsible for all the calculations
 def calculations(x, y): # [1,1] are x and y
-    return int((math.factorial(x)) / ((math.factorial(y)) * math.factorial(x - y)))
+    return int((math.factorial(x)) * ((math.factorial(y)) * math.factorial(x - y)))
 
 
 
 # now we can print the new rows which have been calculated
-for printer in make_new_rowl(h):
+for printer in make_new_row(h):
     print(printer)
 
     
-# i had started to get confused by  all the rows at this stage to be honest
+# i had started to get confused by  the mathematical operations
